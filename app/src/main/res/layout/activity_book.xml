@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.chm.book.view.BookPageView
+        android:id="@+id/book_page_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_progress"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            />
+
+
+        <RelativeLayout
+            android:id="@+id/setting_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone"
+            android:background="@color/setting_groud"
+            >
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/setting_RecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+            </android.support.v7.widget.RecyclerView>
+            <SeekBar
+                android:id="@+id/seekBar_progress"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:max="100"
+                android:progress="0"
+                android:visibility="gone"
+                android:layout_below="@+id/setting_RecyclerView"
+                />
+        </RelativeLayout>
+
+    </com.chm.book.view.BookPageView>
+
+
+
+</LinearLayout>

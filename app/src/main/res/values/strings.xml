@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">阅读App</string>
+    <string name="splash_bt_text">秒 点击跳过</string>
+    <string name="click_download">点击下载</string>
+    <string name="click_open">点击打开</string>
+    <string name="download_failed">下载失败</string>
+
+
+</resources>
