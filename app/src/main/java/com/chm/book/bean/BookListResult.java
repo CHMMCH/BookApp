@@ -1,4 +1,4 @@
-package com.chm.book;
+package com.chm.book.bean;
 
 import java.util.List;
 

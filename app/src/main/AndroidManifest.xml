@@ -14,10 +14,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".SplashsActivity">
+        <activity android:name=".activity.SplashsActivity">
         </activity>
 
-        <activity android:name=".SplashActivity"
+        <activity android:name=".activity.SplashActivity"
             android:theme="@style/NotWindow">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,10 +26,10 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".BookListActivity">
+        <activity android:name=".activity.BookListActivity">
         </activity>
 
-        <activity android:name=".BookActivity"
+        <activity android:name=".activity.BookActivity"
             android:theme="@style/NotBar"
             >
         </activity>

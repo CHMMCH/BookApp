@@ -1,4 +1,4 @@
-package com.chm.book;
+package com.chm.book.activity;
 
 import android.Manifest;
 import android.content.Context;
@@ -18,6 +18,8 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.chm.book.bean.BookListResult;
+import com.chm.book.R;
 import com.google.gson.Gson;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;

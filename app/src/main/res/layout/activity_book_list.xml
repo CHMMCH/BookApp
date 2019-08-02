@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/colorWhite"
     android:orientation="vertical"
-    tools:context=".BookListActivity">
+    tools:context=".activity.BookListActivity">
 
     <ListView
         android:id="@+id/lv_book"

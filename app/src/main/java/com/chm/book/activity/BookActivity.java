@@ -1,4 +1,4 @@
-package com.chm.book;
+package com.chm.book.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -26,6 +26,7 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.chm.book.R;
 import com.chm.book.view.BookPageBezierHelper;
 import com.chm.book.view.BookPageView;
 
